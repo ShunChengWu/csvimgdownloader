@@ -141,7 +141,6 @@ void curldownload(std::vector<std::string>& input, const std::string& folder_pat
         char* url_char = new char [url.size()+1];
         std::strcpy(url_char, url.c_str());
         FILE *fp;
-        create_folder(folder_path);
         fp = fopen(filepath_char, "wb");
         if( fp == NULL ) std::cout << "File cannot be opened\n";
         
@@ -180,6 +179,7 @@ int main(int argc, char* argv[]){
     printf("Runnign threads: %d\n", std::thread::hardware_concurrency());
     
     TaskThreadPool pool(std::thread::hardware_concurrency());
+    create_folder(output_path);
     std::vector<std::vector<std::string> > data = loadcsv(input_path);
     for(size_t i=1;i<data.size();++i){
         pool.runTaskWithID(std::bind(curldownload, data[i], output_path, scale, ".jpg"));
