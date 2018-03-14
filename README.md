@@ -18,6 +18,8 @@ or
 ## Dependencies
 CURL library [link](https://curl.haxx.se/download.html)
     - for downloading images from websites
+    
+    
 [Optional] OpenCV [link](https://opencv.org/)
     - with OpenCV you can set the scaling factor
 
