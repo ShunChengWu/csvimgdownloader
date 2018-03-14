@@ -27,6 +27,7 @@ CURL library [link](https://curl.haxx.se/download.html)
 
 ## How to Use
 `./csvdownloader [path_to_csv] [path_to_output_dir] [scale_factor]`
+
 [path_to_csv]:  The path to the input csv file
 
 [path_to_output_dir]: The path to the output folder.
