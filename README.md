@@ -29,6 +29,6 @@ CURL library [link](https://curl.haxx.se/download.html)
 `./csvdownloader [path_to_csv] [path_to_output_dir] [scale_factor]`
 [path_to_csv]:  The path to the input csv file
 [path_to_output_dir]: The path to the output folder.
-[scale_factor]: (optional) scaling the image. (e.g. 0.5 )
+[scale_factor]: (optional) scaling the image. (e.g. 0.5 )  
 
 
