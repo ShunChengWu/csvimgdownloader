@@ -1,5 +1,5 @@
 # CSV file downloader
-This script is desgined for downloading images from the given website to jpg file. The downloading process will run in multi-thread manner. The script will detect all the available threads on your device and use all of them.
+This script is designed for downloading images from the given website to jpg file. The downloading process will run in multi-thread manner. The script will detect all the available threads on your device and use all of them.
 
 The format of the csv file should be
 
