@@ -15,10 +15,18 @@ Run
 or
 `mkdir build; cd build; cmake ..; make;`
 
+## Dependencies
+CURL library [link](https://curl.haxx.se/download.html)
+    - for downloading images from websites
+[Optional] OpenCV [link](https://opencv.org/)
+    - with OpenCV you can set the scaling factor
+
+
 
 ## How to Use
 `./csvdownloader [path_to_csv] [path_to_output_dir] [scale_factor]`
 [path_to_csv]:  The path to the input csv file
 [path_to_output_dir]: The path to the output folder.
 [scale_factor]: (optional) scaling the image. (e.g. 0.5 )
+
 
